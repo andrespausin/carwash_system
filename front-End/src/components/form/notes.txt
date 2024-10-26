@@ -1,0 +1,21 @@
+const [newEncabezadoPedido, setNewEncabezadoPedido] = useState({
+    idPedido: '',
+    idCliente: '',
+    monto: '',
+    abono: '',
+    fecha: ''
+  })
+  const [newCuerpoPedido, setNewCuerpoPedido] = useState({
+    cuerpo_pedido: [],
+    washservice: []
+  })
+
+  const washserviceActual = useRef({
+    idPedido: '',
+    placa: '',
+    fecha: '',
+    tipoServicio: '',
+    marca: '',
+    modelo: '',
+    precio: ''
+  })

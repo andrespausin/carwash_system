@@ -1,0 +1,18 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    gap: 80px;
+    margin: 40px;
+  }
+  
+  .container h1 {
+    font-weight: 700;
+    font-size: large;
+  }
+  
+  .container button{
+    margin-bottom: 20px;
+  }
+
+  

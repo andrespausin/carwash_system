@@ -1,0 +1,29 @@
+{
+  "name": "carwash-system",
+  "version": "1.0.0",
+  "description": "Sistema de información para la gestión del inventario de un autolavado",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "back": "nodemon /back-End/index.js",
+    "front": "nodemon /front-End/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiagoBriceno/Carwash-Inventory-system.git"
+  },
+  "author": "SantiagoBriceno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SantiagoBriceno/Carwash-Inventory-system/issues"
+  },
+  "homepage": "https://github.com/SantiagoBriceno/Carwash-Inventory-system#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}

@@ -1,0 +1,14 @@
+0.- Instalar git y node y Xamppl(VisualStudio)
+1.- Git clone https://github.com/SantiagoBriceno/Carwash-Inventory-system.git
+2.- instalar las dependencias npm i
+3.- instalar las dependencias globales npm i pm2 -g
+4.- crear los bat
+
+BAT FRONTEND: cd (RUTA DONDE ESTARA EL ARCHIVO CLONADO/front-end) && npm run dev
+
+BAT BACKEND: cd (RUTA DONDE ESTARA EL ARCHIVO CLONADO/back-end/src) && pm2 start ecosystem.config.cjs
+
+5.- Migrar la base de datos (ESTA EN LA CARPETA BACK DEL PROYECTO)
+
+6.- Configurar xamppl
+
